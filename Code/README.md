@@ -40,6 +40,6 @@ For both the tasks, we have tried a lot of experiments. However each of these 2 
 | Ensembling                      | Ensemble of bangla, indic, m-clip bert using majority voting   | 0.3342   |
 | Ensembling                      | Ensemble of bangla, indic, m-clip bert using average of logits | 0.3132   |
 | Ensembling                      | Ensemble of bangla, m-clip bert                                | 0.368    |
-| Prompt Tuning                   | XLM-Roberta                                                    | 0.4962   |
+| Prompt Tuning                   | XLM-Roberta-Base                                                    | 0.4962   |
 | Prompt Tuning                   | XLM-Roberta-Large                                              | 0.6346   |
 | Pretraining and then Finetuning | Pretrained Bangla Bert and then Finetuned it                   | 0.6194   |
