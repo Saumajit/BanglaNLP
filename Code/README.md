@@ -31,15 +31,15 @@ For both the tasks, we have tried a lot of experiments. However each of these 2 
 
 | Approaches                      | Experimental Details                                           | Micro F1 |
 |---------------------------------|----------------------------------------------------------------|----------|
-| Finetuning                      | Finetuning [Bangla Bert](https://huggingface.co/sagorsarker/bangla-bert-base)                                         | 0.6541   |
-| Finetuning                      | Finetuning [Indic Bert](https://huggingface.co/ai4bharat/indic-bert)                                          | 0.6054   |
-| Finetuning                      | Finetuning [M-clip Bert](https://huggingface.co/M-CLIP/M-BERT-Base-ViT-B)                                         | 0.641    |
-| Finetuning                      | Finetuning [Bert-base-multilingual](https://huggingface.co/bert-base-multilingual-uncased)                              | 0.639    |
-| Finetuning                      | Finetuning [twitter-xlm-roberta-sentiment](https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment)                       | **0.6807**   |
-| Finetuning                      | Finetuning [flan-t5-base](https://huggingface.co/google/flan-t5-base)                                        | 0.47     |
-| Ensembling                      | Ensemble of bangla, indic, m-clip bert using majority voting   | 0.3342   |
-| Ensembling                      | Ensemble of bangla, indic, m-clip bert using average of logits | 0.3132   |
-| Ensembling                      | Ensemble of bangla, m-clip bert                                | 0.368    |
-| Prompt Tuning                   | [XLM-Roberta-Base](https://huggingface.co/xlm-roberta-base)                                                    | 0.4962   |
-| Prompt Tuning                   | [XLM-Roberta-Large](https://huggingface.co/xlm-roberta-large)                                              | 0.6346   |
-| Pretraining and then Finetuning | Pretrained [Bangla Bert](https://huggingface.co/sagorsarker/bangla-bert-base) and then Finetuned it                   | 0.6194   |
+| Finetuning                      | Finetuning [Bangla Bert](https://huggingface.co/sagorsarker/bangla-bert-base)                                         | 65.41%   |
+| Finetuning                      | Finetuning [Indic Bert](https://huggingface.co/ai4bharat/indic-bert)                                          | 60.54%   |
+| Finetuning                      | Finetuning [M-clip Bert](https://huggingface.co/M-CLIP/M-BERT-Base-ViT-B)                                         | 64.1%    |
+| Finetuning                      | Finetuning [Bert-base-multilingual](https://huggingface.co/bert-base-multilingual-uncased)                              | 63.9%    |
+| Finetuning                      | Finetuning [twitter-xlm-roberta-sentiment](https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment)                       | **68.07%**   |
+| Finetuning                      | Finetuning [flan-t5-base](https://huggingface.co/google/flan-t5-base)                                        | 47.0%     |
+| Ensembling                      | Ensemble of bangla, indic, m-clip bert using majority voting   | 33.42%   |
+| Ensembling                      | Ensemble of bangla, indic, m-clip bert using average of logits | 31.32%   |
+| Ensembling                      | Ensemble of bangla, m-clip bert                                | 36.8%    |
+| Prompt Tuning                   | [XLM-Roberta-Base](https://huggingface.co/xlm-roberta-base)                                                    | 49.62%   |
+| Prompt Tuning                   | [XLM-Roberta-Large](https://huggingface.co/xlm-roberta-large)                                              | 63.46%   |
+| Pretraining and then Finetuning | Pretrained [Bangla Bert](https://huggingface.co/sagorsarker/bangla-bert-base) and then Finetuned it                   | 61.94%   |
