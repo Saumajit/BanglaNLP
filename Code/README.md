@@ -7,19 +7,19 @@ For both the tasks, we have tried a lot of experiments. However each of these 2 
 
 | Approaches                     | Experimental Details                                            | Macro F1 |
 |--------------------------------|-----------------------------------------------------------------|----------|
-| Traditional ML using TF-IDF | Logistic Regression | 52.97 |
-| Traditional ML using TF-IDF | SGD Classifier      | 44.8  |
-| Traditional ML using TF-IDF | Naive Bayes         | 52.13 |
-| Traditional ML using TF-IDF | Majority Voting     | 51.67 |
-| Traditional ML using TF-IDF | Stacking            | 50.99 |
-| Finetuning                     | Finetuning [Bangla Bert](https://huggingface.co/sagorsarker/bangla-bert-base)                                          | 64.5     |
-| Finetuning                     | Finetuning [Bert-base-multilingual](https://huggingface.co/bert-base-multilingual-uncased)                               | 67.2     |
-| Finetuning                     | Finetuning [multilingual-e5-base](https://huggingface.co/intfloat/multilingual-e5-base)                                 | 60.92    |
-| Finetuning                     | Finetuning [multilingual-e5-base](https://huggingface.co/intfloat/multilingual-e5-base) with prompt text                | 71.57    |
-| Finetuning                     | Finetuning [multilingual-e5-large](https://huggingface.co/intfloat/multilingual-e5-large) with prompt text               | 60.48    |
-| Data Augmentation + Finetuning | Finetuning [Bert-base-multilingual](https://huggingface.co/bert-base-multilingual-uncased) after round 1                             | 69.3     |
-| Data Augmentation + Finetuning | Finetuning [Bert-base-multilingual](https://huggingface.co/bert-base-multilingual-uncased) after round 2                             | 65.2     |
-| Data Augmentation + Finetuning | Finetuning [Bangla Bert](https://huggingface.co/sagorsarker/bangla-bert-base) after round 2                                    | 69.4     |
+| Traditional ML using TF-IDF | Logistic Regression | 52.97% |
+| Traditional ML using TF-IDF | SGD Classifier      | 44.8%  |
+| Traditional ML using TF-IDF | Naive Bayes         | 52.13% |
+| Traditional ML using TF-IDF | Majority Voting     | 51.67% |
+| Traditional ML using TF-IDF | Stacking            | 50.99% |
+| Finetuning                     | Finetuning [Bangla Bert](https://huggingface.co/sagorsarker/bangla-bert-base)                                          | 64.5%     |
+| Finetuning                     | Finetuning [Bert-base-multilingual](https://huggingface.co/bert-base-multilingual-uncased)                               | 67.2%     |
+| Finetuning                     | Finetuning [multilingual-e5-base](https://huggingface.co/intfloat/multilingual-e5-base)                                 | 60.92%    |
+| Finetuning                     | Finetuning [multilingual-e5-base](https://huggingface.co/intfloat/multilingual-e5-base) with prompt text                | 71.57%    |
+| Finetuning                     | Finetuning [multilingual-e5-large](https://huggingface.co/intfloat/multilingual-e5-large) with prompt text               | 60.48%    |
+| Data Augmentation + Finetuning | Finetuning [Bert-base-multilingual](https://huggingface.co/bert-base-multilingual-uncased) after round 1                             | 69.3%     |
+| Data Augmentation + Finetuning | Finetuning [Bert-base-multilingual](https://huggingface.co/bert-base-multilingual-uncased) after round 2                             | 65.2%     |
+| Data Augmentation + Finetuning | Finetuning [Bangla Bert](https://huggingface.co/sagorsarker/bangla-bert-base) after round 2                                    | 69.4%     |
 | Data Augmentation + Finetuning | Finetuning [multilingual-e5-base](https://huggingface.co/intfloat/multilingual-e5-base) with prompt text after round 1  | **74.60%**   |
 | Data Augmentation + Finetuning | Finetuning [multilingual-e5-base](https://huggingface.co/intfloat/multilingual-e5-base) with prompt text after round 2  | 73.38%   |
 | Data Augmentation + Finetuning | Finetuning [multilingual-e5-large](https://huggingface.co/intfloat/multilingual-e5-large) with prompt text after round 1 | 69.36%   |
