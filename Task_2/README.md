@@ -2,6 +2,11 @@
 
 | Approaches                      | Experimental Details                                           | Micro F1 |
 |---------------------------------|----------------------------------------------------------------|----------|
+| Traditional ML using TF-IDF | Logistic Regression | 55% |
+| Traditional ML using TF-IDF | SGD Classifier      | 47%  |
+| Traditional ML using TF-IDF | Multinomial Naive Bayes         | 56% |
+| Traditional ML using TF-IDF | Majority Voting     | 55% |
+| Traditional ML using TF-IDF | Stacking            | 54% |
 | Finetuning                      | Finetuning [Bangla Bert](https://huggingface.co/sagorsarker/bangla-bert-base)                                         | 65.41%   |
 | Finetuning                      | Finetuning [Indic Bert](https://huggingface.co/ai4bharat/indic-bert)                                          | 60.54%   |
 | Finetuning                      | Finetuning [M-clip Bert](https://huggingface.co/M-CLIP/M-BERT-Base-ViT-B)                                         | 64.1%    |
