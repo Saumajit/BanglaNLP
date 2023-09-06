@@ -1,7 +1,12 @@
 ## Shared Task Description
+The objective is to detect the sentiment associated within a given text. This is a multi-class classification task that involves determining whether the sentiment expressed in the text is Positive, Negative, Neutral.
 
 ## Dataset Distribution
-
+|              | **Train** | **Dev** |
+|:------------:|:---------:|:-------:|
+| **Positive** |   12364   |   1388  |
+| **Negative** |   15767   |   1753  |
+|  **Neutral** |    7135   |   793   |
 ### Sample Dataset
 |                            **Sentence**                           | **Label** |
 |:-----------------------------------------------------------------:|:---------:|
