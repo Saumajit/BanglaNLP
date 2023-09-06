@@ -1,3 +1,14 @@
+## Shared Task Description
+
+## Dataset Distribution
+
+### Sample Dataset
+|                            **Sentence**                           | **Label** |
+|:-----------------------------------------------------------------:|:---------:|
+|             টানা দুই হারের পর জয়ের স্বাদ পেল ইউভেন্তুস \|             |  Positive |
+|                  করোনায় আক্রান্ত হয়ে আরো ১ জনের মৃত্যু                 |  Negative |
+| চিন্তা করেন যারা বক্তব্যে দিচ্ছে তাদের কন্ঠ ও ছবি দেখাতে সাহস ও পায় না |  Neutral  |
+
 ## Task 2 experiments and results during development phase:
 
 | Approaches                      | Experimental Details                                           | Micro F1 |
@@ -16,3 +27,5 @@
 | Prompt Tuning                   | [XLM-Roberta-Base](https://huggingface.co/xlm-roberta-base)                                                    | 49.62%   |
 | Prompt Tuning                   | [XLM-Roberta-Large](https://huggingface.co/xlm-roberta-large)                                              | 63.46%   |
 | Pretraining and then Finetuning | Pretrained [Bangla Bert](https://huggingface.co/sagorsarker/bangla-bert-base) and then Finetuned it                   | 61.94%   |
+
+Here we report performance of a few additional experiments which we have performed and that are not mentioned in the paper due to page limit. We include them here  particularly because we want to highlight the Bangla Natural Language Processing community how they perform in similar classification tasks in a low-resource language like Bengali.
