@@ -16,6 +16,14 @@ The task categories are defined as follows:
 | Passive Violence |    922    |   417   |
 |  Direct Violence |    389    |   196   |
 
+### Sample Dataset
+
+|                                          **Sentence**                                          |     **Label**    |
+|:----------------------------------------------------------------------------------------------:|:----------------:|
+|                 একজন বাবা কতোটা অসহায় হলে এই কথা বলতে পারে আল্লাহ তুমি বিচার করো                 |   Non-Violence   |
+| অসৎ এর বাচ্চারা তোরা কলেজ বিশ্ববিদ্যালয়ে এগুলো করার জন্যেই যাস, আর তোদের জন্য নীরিহ মানুষরা মারা যায়😡 | Passive Violence |
+|   এই শালারে জন সম্মুখে আগুনে পুড়িয়ে মারা হউক, যাতে করে আর কোন অমানুষ এ রকম কাজ করতে সাহস না পায় ।   |  Direct Violence |
+
 For this task, we have used Data Augmentation using the paraphrasing technique inorder to increase the size of the dataset.
 
 ## Task 1 experiments and results during development phase: 
@@ -36,3 +44,5 @@ For this task, we have used Data Augmentation using the paraphrasing technique i
 | Data Augmentation + Finetuning | Finetuning [multilingual-e5-large](https://huggingface.co/intfloat/multilingual-e5-large) with prompt text | 69.36%   |
 | Data Augmentation + Finetuning | Finetuning [twitter-xlm-roberta-sentiment](https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment)           | 73.15%   |
 | Data Augmentation + Finetuning | Finetuning [mDeBERTa-v3-base-mnli-xnli](https://huggingface.co/MoritzLaurer/mDeBERTa-v3-base-mnli-xnli)              | 71.79%   |
+
+Here we report performance of a few additional experiments which we have performed but their descriptions did not make it to the paper due to page limit. The purpose of reporting the performance here is to help the Bangla Natural Language Processing community to get an idea of how these models stand amongst each other with respect to this classification task.
