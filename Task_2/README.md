@@ -34,3 +34,16 @@ The objective is to detect the sentiment associated within a given text. This is
 | Pretraining and then Finetuning | Pretrained [Bangla Bert](https://huggingface.co/sagorsarker/bangla-bert-base) and then Finetuned it                   | 61.94%   |
 
 Here we report performance of a few additional experiments which we have performed and that are not mentioned in the paper due to page limit. We include them here  particularly because we want to highlight the Bangla Natural Language Processing community how they perform in similar classification tasks in a low-resource language like Bengali.
+
+## Cite us 
+If you refer to our [work](https://arxiv.org/abs/2310.09238v2), please cite us with the following bibtex entry:
+```
+@misc{saha2023banglanlp,
+      title={BanglaNLP at BLP-2023 Task 2: Benchmarking different Transformer Models for Sentiment Analysis of Bangla Social Media Posts}, 
+      author={Saumajit Saha and Albert Nanda},
+      year={2023},
+      eprint={2310.09238},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
