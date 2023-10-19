@@ -46,3 +46,17 @@ For this task, we have used Data Augmentation using the paraphrasing technique i
 | Data Augmentation + Finetuning | Finetuning [mDeBERTa-v3-base-mnli-xnli](https://huggingface.co/MoritzLaurer/mDeBERTa-v3-base-mnli-xnli)              | 71.79%   |
 
 Here we report performance of a few additional experiments which we have performed but their descriptions did not make it to the paper due to page limit. The purpose of reporting the performance here is to help the Bangla Natural Language Processing community to get an idea of how these models stand amongst each other with respect to this classification task.
+
+## Cite us
+
+If you refer to this [work](https://arxiv.org/abs/2310.10781), please cite us with the following bibtex entry:
+```
+@misc{saha2023banglanlp,
+      title={BanglaNLP at BLP-2023 Task 1: Benchmarking different Transformer Models for Violence Inciting Text Detection in Bengali}, 
+      author={Saumajit Saha and Albert Nanda},
+      year={2023},
+      eprint={2310.10781},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
